@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "togglesprint",
+  "version": "1.0.0",
+  "name": "MGI's Toggle Sprint Mod",
+  "description": "Adds toggleable sprint and sneak keys to Minecraft.",
+  "authors": ["MrGamerIND"],
+  "contact": {
+    "homepage": "https://github.com/mrgamerind",
+    "sources": "https://github.com/mrgamerind/MGI-s-Toggle-Sprint-sneak-"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.mrgamerind.togglesprint.ToggleSprintMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "fabric": "*",
+    "minecraft": "1.21.1"
+  }
+}
